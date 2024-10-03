@@ -1,56 +1,72 @@
 body {
-    font-family: Arial, sans-serif;
-    background: radial-gradient(circle at center, rgb(158, 134, 5), rgb(140, 118, 4), rgb(115, 97, 3), rgb(89, 75, 2), rgb(66, 56, 1));
-    height: 100vh;
+	font-family: Arial, sans-serif;
+	background: radial-gradient(
+		circle at center,
+		rgb(158, 134, 5),
+		rgb(140, 118, 4),
+		rgb(115, 97, 3),
+		rgb(89, 75, 2),
+		rgb(66, 56, 1)
+	);
 }
 
-
-@media(max-width: 991px) {
-    .sidebar {
-        background-color: rgba(255, 255, 255, 0.15);
-        backdrop-filter: blur(10px);
-    }
+@media (max-width: 991px) {
+	.sidebar {
+		background-color: rgba(255, 255, 255, 0.15);
+		backdrop-filter: blur(10px);
+	}
 }
 
 .bheight {
-    height: 5%;
+	height: 5%;
 }
 
 /* Content Styling */
 .contents {
-    margin-top: 100px; /* Offset content below navbar */
-    margin-left: 10px;
-    color: #000;
+	margin-top: 100px; /* Offset content below navbar */
+	margin-left: 10px;
+	color: #000;
 }
 
 .contents h1 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    margin-left: 100px;
-    font-weight: 750;
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-left: 100px;
+	font-weight: 750;
 }
 
 .contents,
 .name {
-    font-size: 30px;
-    font-weight: 1000;
+	font-size: 30px;
+	font-weight: 1000;
 }
 
 .white {
-    background-color: #fff;
+	background-color: #fff;
 }
 
 .reduced {
-    font-size: 25px;
-    font-weight: 700;
-    margin-left: 15px;
-    margin-top: 15px;
+	font-size: 25px;
+	font-weight: 700;
+	margin-left: 15px;
+	margin-top: 15px;
 }
 
 .minz {
-    margin-left: 10px;
-    font-size: 25px;
-    font-weight: lighter;
-    height: 2%;
-    margin-top: -150px;
+	margin-left: 10px;
+	font-size: 25px;
+	font-weight: lighter;
+	height: 2%;
+	margin-top: -150px;
+}
+.album {
+	font-family: Arial, sans-serif;
+	background: radial-gradient(
+		circle at center,
+		rgb(158, 134, 5),
+		rgb(140, 118, 4),
+		rgb(115, 97, 3),
+		rgb(89, 75, 2),
+		rgb(66, 56, 1)
+	);
 }

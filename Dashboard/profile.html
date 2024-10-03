@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Wester Technical College</title>
+		<link rel="stylesheet" href="style.css" />
+		<link href="./bootstrap.min.css" rel="stylesheet" />
+		<script src="./bootstrap.bundle.min.js"></script>
+		<!-- font awesome cdn link -->
+		<link rel="stylesheet" href="./all.min.css" />
+	</head>
+	<body>
+		<nav
+			class="navbar navbar-expand-md bg-light navbar-light sticky-top border-bottom"
+		>
+			<div class="container">
+				<a class="navbar-brand d-md-none" href="#">
+					Wester Technical College
+				</a>
+
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvas"
+					aria-controls="offcanvas"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="offcanvas offcanvas-end"
+					tabindex="-1"
+					id="offcanvas"
+					aria-labelledby="offcanvasLabel"
+				>
+					<div class="offcanvas-header">
+						<img
+							src="/images/PhotoSokoLogo4.png"
+							width="150px"
+							alt="PhotoSoko Logo"
+						/>
+
+						<!-- <h5 class="offcanvas-title" id="offcanvasLabel">PhotoSoko</h5> -->
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="offcanvas"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul class="navbar-nav flex-grow-1 justify-content-around fw-bold">
+							<li class="nav-item">
+								<a
+									class="nav-link d-flex align-items-center gap-2 d-none d-md-block"
+									href="#"
+								>
+									<img
+										src="/images/PhotoSokoLogo4.png"
+										width="150px"
+										alt="Wester Technical College"
+									/>
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link d-flex align-items-center" href="./home.html"
+									><i class="bi-house fs-3 me-1"></i>Home</a
+								>
+							</li>
+							<li class="nav-item">
+								<a
+									class="nav-link d-flex align-items-center"
+									href="./index.html"
+									><i class="bi-collection fs-3 me-1"></i>My Courses</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link d-flex align-items-center" href="/dashboard"
+									><i class="bi-folder-check fs-3 me-1"></i>Dashboard</a
+								>
+							</li>
+
+							<!-- <li class="nav-item">
+          <a
+            class="nav-link d-flex align-items-center text-danger"
+            href="/logout"
+            >Logout<i class="bi-arrow-right fs-3 ms-1"></i
+          ></a>
+        </li> -->
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									<i class="fa-solid fa-circle-chevron-down"></i>
+								</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="#">Accessibility</a></li>
+									<li>
+										<hr class="dropdown-divider" />
+									</li>
+									<li>
+										<a class="dropdown-item" href="./profile.html">Profile</a>
+									</li>
+									<li><a class="dropdown-item" href="#">Grades</a></li>
+									<li><a class="dropdown-item" href="#">Calendar</a></li>
+									<li><a class="dropdown-item" href="#">Private files</a></li>
+									<li><a class="dropdown-item" href="#">Reports</a></li>
+									<li>
+										<hr class="dropdown-divider" />
+									</li>
+									<li><a class="dropdown-item" href="#">Preferences</a></li>
+									<li>
+										<hr class="dropdown-divider" />
+									</li>
+									<li><a class="dropdown-item" href="#">Log Out</a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#"
+									><i class="fa-regular fa-message"></i
+								></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#"
+									><i class="fa-solid fa-bell"></i
+								></a>
+							</li>
+						</ul>
+						<form class="d-flex my-2 my-lg-0">
+							<input
+								class="form-control me-sm-2"
+								type="text"
+								placeholder="Search"
+							/>
+							<button
+								class="btn btn-outline-success my-2 my-sm-0"
+								type="submit"
+							>
+								Search
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!-- Navbar -->
+
+		<!-- Body -->
+
+		<div class="py-5">
+			<div class="container bg-light p-4 rounded-3">
+				<h2 class="text-center">Your Profile</h2>
+				<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+					<div class="col">
+						<div class="card shadow-sm rounded-3">
+							<div class="card-body">
+								<h4 class="fs-2">Elvis Kemoi</h4>
+								<p class="card-text fs-5 text-muted fw-light">
+									<button class="btn btn-outline-primary w-100">
+										Edit Profile
+									</button>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow-sm rounded-3">
+							<div class="card-body">
+								<h4 class="fs-3 fw-light">User Details</h4>
+								<div>
+									<h6 class="fw-bold">Email Address</h6>
+									<p class="card-text fs-5 text-muted fw-light">
+										whatever@gmail.com
+									</p>
+								</div>
+								<div>
+									<h6 class="fw-bold">Timezone</h6>
+									<p class="card-text fs-5 text-muted fw-light">
+										Africa/Nairobi
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card shadow-sm rounded-3">
+							<div class="card-body">
+								<h4 class="fs-3 fw-light">Course Details</h4>
+								<div>
+									<h6 class="fw-bold">Course Profiles</h6>
+									<ul>
+										<li>
+											<p class="card-text fs-5 text-muted">Course 1</p>
+										</li>
+										<li>
+											<p class="card-text fs-5 text-muted">Course 2</p>
+										</li>
+										<li>
+											<p class="card-text fs-5 text-muted">Course 3</p>
+										</li>
+										<li>
+											<p class="card-text fs-5 text-muted">Course 4</p>
+										</li>
+										<li>
+											<p class="card-text fs-5 text-muted">Course 5</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
